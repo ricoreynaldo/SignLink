@@ -1,0 +1,8 @@
+# Python 3.10. Versi mengikuti .venv yang sudah teruji.
+tensorflow==2.16.1
+mediapipe==0.10.14  # versi baru menghapus mp.solutions.holistic
+numpy==1.26.4
+opencv-contrib-python==4.13.0.92
+pillow==12.2.0
+
+# Juga butuh ffmpeg di PATH untuk training/buat_panduan.py

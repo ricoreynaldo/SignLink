@@ -1,0 +1,22 @@
+# Virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset video mentah (2.1 GB) - simpan di Drive/HF, bukan di git
+new_dataset/
+
+# Landmark hasil ekstraksi (bisa dibuat ulang lewat training/extract_landmarks.py)
+data_landmarks/
+
+# Log
+*.log
+cv_log.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
